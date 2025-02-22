@@ -42,7 +42,7 @@
 
 ## SEMINAR
 <a name="seminar"></a>
-Seminar nhóm: ...
+Seminar nhóm: Ứng dụng Notion trong QLDA: Trình bày cách thiết lập hệ thống quản lý dự án trên Notion, ứng dụng QLDA phần mềm theo Agile, thiết lập template, tích hợp API và so sánh với các công cụ khác như Trello, ClickUp.
 
 
 ## ĐỒ ÁN MÔN HỌC
