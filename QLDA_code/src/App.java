@@ -1,8 +1,7 @@
+import java.awt.*;
+import java.awt.image.*;
 import javax.swing.*;
 import javax.swing.table.*;
-import java.awt.*;
-
-import java.awt.image.BufferedImage;
 
 public class App {
     public static void main(String[] args) {
