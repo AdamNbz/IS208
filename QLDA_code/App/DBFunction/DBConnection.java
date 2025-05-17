@@ -4,9 +4,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-    private static final String URL = "jdbc:oracle:thin:@localhost:1521:orcl";
-    private static final String USER = "QLDA";
-    private static final String PASSWORD = "Admin123";
+    private static final String URL = "jdbc:oracle:thin:@localhost:1521:ORCLCDB";
+    private static final String USER = "SYSTEM";
+    private static final String PASSWORD = "Password.1";
 
     // Phương thức tĩnh để gọi ở mọi nơi
     public static Connection getConnection() throws SQLException {
