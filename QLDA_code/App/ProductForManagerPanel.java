@@ -1,4 +1,3 @@
-
 import Customize.RoundedButton;
 import Customize.RoundedComboBox;
 import Customize.RoundedPanel;
@@ -75,7 +74,7 @@ public class ProductForManagerPanel {
         // Filter panel
         JPanel filterPanel = new JPanel(new FlowLayout(FlowLayout.RIGHT, 10, 0));
         filterPanel.setBorder(BorderFactory.createEmptyBorder(0, 20, 0, 20));
-        JComboBox firstBox = new RoundedComboBox(new String[]{"Show: All Products", "T-shirt", "Hoodie"});
+        JComboBox<String> firstBox = new RoundedComboBox(new String[]{"Show: All Products", "T-shirt", "Hoodie"});
         filterPanel.add(firstBox);
         JButton filterbutton = new RoundedButton("Filter");
         filterbutton.setBackground(new Color(33, 150, 243));
@@ -158,8 +157,6 @@ public class ProductForManagerPanel {
             cancelBtn.setFont(new Font("Arial", Font.BOLD, 13));
             cancelBtn.setBorder(BorderFactory.createEmptyBorder(10, 20, 10, 20));
             cancelBtn.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-
-            Object[] options = {okBtn, cancelBtn};
 
             JDialog dialog = new JDialog((Frame) null, "Thêm sản phẩm mới", true);
             dialog.setLayout(new BorderLayout());
