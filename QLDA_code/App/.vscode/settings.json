@@ -1,7 +1,0 @@
-{
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "c:\\Users\\maing\\Downloads\\flatlaf-3.5.4-javadoc.jar",
-        "c:\\Users\\maing\\Downloads\\ojdbc17.jar"
-    ]
-}
